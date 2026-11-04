@@ -1,0 +1,14 @@
+{
+  "name": "senyum-media",
+  "version": "1.0.0",
+  "description": "Aplikasi CRUD produk dan transaksi pembelian sederhana",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0"
+  }
+}
